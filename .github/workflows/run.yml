@@ -26,6 +26,7 @@ jobs:
           
       - name: 开始
         env:
+            TZ: Asia/Shanghai
             CONFIG: ${{ secrets.CONFIG }}
             AES_KEY: ${{ secrets.AES_KEY }}
         run: |
